@@ -3,10 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "homepage": "https://yisusjuarez.github.io/rss-stories",
-
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -24,6 +21,7 @@
     "autoprefixer": "^10.4.7",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.14",
+    "surge": "^0.23.1",
     "tailwindcss": "^3.1.4",
     "vite": "^2.9.9"
   }
